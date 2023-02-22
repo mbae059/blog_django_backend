@@ -2,4 +2,4 @@
 	email = mbae059@daum.net
 	name = Minjun
 [credential]
-	helper = "!f() { /root/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/node /tmp/vscode-remote-containers-df083ccf3766faa0cb50a3f0d6c9383192feb077.js git-credential-helper $*; }; f"
+	helper = "!f() { /root/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/node /tmp/vscode-remote-containers-27b8f8a0a479942ab2b35f92433d78a22311f339.js git-credential-helper $*; }; f"
