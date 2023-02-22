@@ -1,0 +1,25 @@
+[2023-02-22 04:49:53.584] Starting Git Graph ...
+[2023-02-22 04:49:54.047] Using git (version: 2.30.2)
+[2023-02-22 04:49:54.054] Started Git Graph - Ready to use!
+[2023-02-22 04:49:54.055] Searching workspace for new repos ...
+[2023-02-22 04:49:54.061] > git rev-parse --show-toplevel
+[2023-02-22 04:49:54.477] Completed searching workspace for new repos
+[2023-02-22 04:49:54.515] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
+[2023-02-22 07:45:39.856] > git rev-parse --show-toplevel
+[2023-02-22 07:45:39.864] > git rev-parse --show-toplevel
+[2023-02-22 07:47:17.592] > git rev-parse --show-toplevel
+[2023-02-22 07:47:26.059] > git rev-parse --show-toplevel
+[2023-02-22 17:30:05.697] > git rev-parse --show-toplevel
+[2023-02-22 17:34:30.194] > git rev-parse --show-toplevel
+[2023-02-22 17:34:30.200] > git rev-parse --show-toplevel
+[2023-02-22 17:34:46.567] > git rev-parse --show-toplevel
+[2023-02-22 17:34:46.577] > git rev-parse --show-toplevel
+[2023-02-22 17:37:56.554] > git rev-parse --show-toplevel
+[2023-02-22 17:38:29.456] > git rev-parse --show-toplevel
+[2023-02-22 17:43:17.537] > git rev-parse --show-toplevel
+[2023-02-22 18:32:34.918] > git rev-parse --show-toplevel
+[2023-02-22 22:29:34.432] > git rev-parse --show-toplevel
+[2023-02-22 22:29:34.433] Added new repo: /root/backend
+[2023-02-22 22:29:34.434] Showing "Git Graph" Status Bar Item
+[2023-02-22 22:30:49.124] Removed repo: /root/backend
+[2023-02-22 22:30:49.124] Hiding "Git Graph" Status Bar Item

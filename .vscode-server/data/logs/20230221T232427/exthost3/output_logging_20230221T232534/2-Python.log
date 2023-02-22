@@ -1,0 +1,45 @@
+Experiment 'pythonPromptNewToolsExt' is active
+LSP Notebooks experiment is enabled
+LSP Notebooks interactive window support is enabled
+Python interpreter path: /usr/local/bin/python
+Starting Pylance language server.
+> conda info --json
+> /usr/bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/interpreterInfo.py
+> /usr/local/bin/python -I ~/.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/interpreterInfo.py
+> /usr/local/bin/python ~/.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/normalizeSelection.py
+Send text to terminal: /usr/local/bin/python
+Send text to terminal:         extra_kwargs = {
+
+
+> /usr/local/bin/python ~/.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/normalizeSelection.py
+Send text to terminal:                 'write_only' : True,
+
+
+> /usr/local/bin/python ~/.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/normalizeSelection.py
+Send text to terminal:                 'write_only' : True,
+
+
+> /usr/local/bin/python ~/.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/normalizeSelection.py
+Send text to terminal: /usr/local/bin/python
+Send text to terminal:         payload = {
+
+
+> /usr/local/bin/python ~/.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/normalizeSelection.py
+Send text to terminal: /usr/local/bin/python
+> /usr/local/bin/python ~/.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/normalizeSelection.py
+Send text to terminal:         return Response({)
+
+
+Send text to terminal:         return Response({)
+
+
+> /usr/local/bin/python ~/.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/normalizeSelection.py
+Send text to terminal: /usr/local/bin/python
+Send text to terminal:         response.data = {
+
+
+> /usr/local/bin/python ~/.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/normalizeSelection.py
+Send text to terminal: /usr/local/bin/python
+Send text to terminal:             'message' : 'success',
+
+

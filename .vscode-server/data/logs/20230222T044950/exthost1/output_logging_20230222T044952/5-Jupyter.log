@@ -1,0 +1,9 @@
+Visual Studio Code (1.75.1, attached-container, desktop)
+Jupyter Extension Version: 2023.1.2010391206.
+Python Extension Version: 2023.2.0.
+Workspace folder /root/backend
+User belongs to experiment group 'jupyterTest'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+info 04:49:53.769: LSP Notebooks experiment is enabled
+info 04:49:54.958: Process Execution: > /usr/local/bin/python -m pip list
+> /usr/local/bin/python -m pip list

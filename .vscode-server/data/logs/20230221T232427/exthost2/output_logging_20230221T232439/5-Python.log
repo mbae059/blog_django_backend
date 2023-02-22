@@ -1,0 +1,34 @@
+Experiment 'pythonPromptNewToolsExt' is active
+LSP Notebooks experiment is enabled
+LSP Notebooks interactive window support is enabled
+> ./mbae059/venv/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/interpreterInfo.py
+[ERROR 2023-1-21 23:24:47.806]: [Error: Command failed: /root/mbae059/venv/bin/python3 -I /root/.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/interpreterInfo.py
+/bin/sh: 1: /root/mbae059/venv/bin/python3: not found
+
+	at ChildProcess.exithandler (node:child_process:399:12)
+	at ChildProcess.emit (node:events:526:28)
+	at maybeClose (node:internal/child_process:1092:16)
+	at Socket.<anonymous> (node:internal/child_process:451:11)
+	at Socket.emit (node:events:526:28)
+	at Pipe.<anonymous> (node:net:687:12)] {
+  killed: false,
+  code: 127,
+  signal: null,
+  cmd: '/root/mbae059/venv/bin/python3 -I /root/.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/interpreterInfo.py'
+}
+> ./mbae059/venv/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/interpreterInfo.py
+[ERROR 2023-1-21 23:24:49.814]: [Error: Command failed: /root/mbae059/venv/bin/python3 -I /root/.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/interpreterInfo.py
+/bin/sh: 1: /root/mbae059/venv/bin/python3: not found
+
+	at ChildProcess.exithandler (node:child_process:399:12)
+	at ChildProcess.emit (node:events:526:28)
+	at maybeClose (node:internal/child_process:1092:16)
+	at Socket.<anonymous> (node:internal/child_process:451:11)
+	at Socket.emit (node:events:526:28)
+	at Pipe.<anonymous> (node:net:687:12)] {
+  killed: false,
+  code: 127,
+  signal: null,
+  cmd: '/root/mbae059/venv/bin/python3 -I /root/.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2023.2.0/pythonFiles/interpreterInfo.py'
+}
+Starting Pylance language server.

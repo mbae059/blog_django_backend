@@ -1,0 +1,21 @@
+2023-02-22 04:49:50.421 [info] 
+
+
+
+
+2023-02-22 04:49:50.518 [info] Extension host agent started.
+2023-02-22 04:49:50.644 [info] [127.0.0.1][c204abb4][ManagementConnection] New connection established.
+2023-02-22 04:49:50.978 [info] [127.0.0.1][50c9b895][ExtensionHostConnection] New connection established.
+2023-02-22 04:49:51.025 [info] [127.0.0.1][50c9b895][ExtensionHostConnection] <228> Launched Extension Host Process.
+2023-02-22 05:54:26.304 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/root/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/server/node/server.main.js:157:6507)
+    at process.emit (node:events:526:28)
+2023-02-22 06:46:01.870 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2023-02-22 16:30:36.418 [info] [127.0.0.1][c204abb4][ManagementConnection] The client has reconnected.
+2023-02-22 16:30:36.975 [info] [127.0.0.1][50c9b895][ExtensionHostConnection] The client has reconnected.
+2023-02-22 18:44:05.225 [warning] No ptyHost heartbeat after 6 seconds
+2023-02-22 20:55:35.364 [info] [127.0.0.1][c204abb4][ManagementConnection] The client has reconnected.
+2023-02-22 20:55:35.701 [info] [127.0.0.1][50c9b895][ExtensionHostConnection] The client has reconnected.
+2023-02-22 22:05:01.938 [warning] No ptyHost heartbeat after 6 seconds
+2023-02-22 22:30:49.112 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

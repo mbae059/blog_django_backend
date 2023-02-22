@@ -1,0 +1,97 @@
+[Info  - 11:25:36 PM] (2587) Pylance language server 2023.2.30 (pyright dec6aa20) starting
+[Info  - 11:25:36 PM] (2587) Server root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist
+[Info  - 11:25:36 PM] (2587) Starting service instance "backend"
+[Info  - 11:25:36 PM] (2587) Auto-indent enabled
+[Info  - 11:25:36 PM] (2587) Starting service instance "<default>"
+[Info  - 11:25:36 PM] (2587) No configuration file found.
+[Info  - 11:25:36 PM] (2587) No pyproject.toml file found.
+[Info  - 11:25:36 PM] (2587) Setting pythonPath for service "backend": "/usr/local/bin/python"
+[Warn  - 11:25:36 PM] (2587) stubPath /root/backend/typings is not a valid directory.
+[Info  - 11:25:36 PM] (2587) Assuming Python version 3.11
+[Info  - 11:25:36 PM] (2587) Assuming Python platform Linux
+[Info  - 11:25:36 PM] (2587) Searching for source files
+[Info  - 11:25:36 PM] (2587) Found 6 source files
+[Info  - 11:25:36 PM] (2587) No pyproject.toml file found.
+[Info  - 11:25:36 PM] (2587) Setting pythonPath for service "<default>": "/usr/local/bin/python"
+[Warn  - 11:25:36 PM] (2587) stubPath typings is not a valid directory.
+[Info  - 11:25:36 PM] (2587) Assuming Python version 3.11
+[Info  - 11:25:36 PM] (2587) Assuming Python platform Linux
+[Info  - 11:25:36 PM] (2587) Searching for source files
+[Info  - 11:25:36 PM] (2587) No source files found.
+[Info  - 11:25:36 PM] (2587) Background analysis(1) root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist
+[Info  - 11:25:36 PM] (2587) Background analysis(1) started
+[Info  - 11:25:36 PM] (2587) Background analysis(2) root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist
+[Info  - 11:25:36 PM] (2587) Background analysis(2) started
+[Info  - 11:25:53 PM] (2587) Searching for source files
+[Info  - 11:25:53 PM] (2587) Found 13 source files
+[Info  - 11:25:55 PM] (2587) Indexer background runner(3) root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist (index)
+[Info  - 11:25:55 PM] (2587) Indexing(3) started
+[Info  - 11:25:56 PM] (2587) scanned(3) 41 files over 1 exec env
+[Info  - 11:25:56 PM] (2587) indexed(3) 27 files over 1 exec env
+[Info  - 11:25:56 PM] (2587) Indexing finished(3).
+[Info  - 11:30:02 PM] (2587) Searching for source files
+[Info  - 11:30:02 PM] (2587) Found 14 source files
+[Info  - 11:31:17 PM] (2587) Searching for source files
+[Info  - 11:31:17 PM] (2587) Found 15 source files
+[Info  - 11:33:47 PM] (2587) Searching for source files
+[Info  - 11:33:47 PM] (2587) Found 16 source files
+[Info  - 11:38:57 PM] (2587) Searching for source files
+[Info  - 11:38:57 PM] (2587) Found 17 source files
+[Info  - 11:52:57 PM] (2587) Indexer background runner(4) root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist (refresh)
+[Info  - 11:52:57 PM] (2587) Indexing(4) started
+[Info  - 11:52:58 PM] (2587) scanned(4) 42 files over 1 exec env
+[Info  - 11:52:58 PM] (2587) indexed(4) 28 files over 1 exec env
+[Info  - 11:52:58 PM] (2587) Indexing finished(4).
+[Info  - 11:53:05 PM] (2587) Indexer background runner(5) root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist (refresh)
+[Info  - 11:53:05 PM] (2587) Indexing(5) started
+[Info  - 11:53:06 PM] (2587) scanned(5) 42 files over 1 exec env
+[Info  - 11:53:06 PM] (2587) indexed(5) 28 files over 1 exec env
+[Info  - 11:53:06 PM] (2587) Indexing finished(5).
+Got invalid dimensions for input: input_batch:0 for the following indices
+ index: 1 Got: 102 Expected: 100
+ Please fix either the inputs or the model.
+[Error - 12:14:17 AM] (2587) IntelliCode exception: Error: failed to call OrtRun(). error code = 2.
+    at Object.e.run (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/vendor.bundle.js:2:56662)
+    at Object.e.run (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/vendor.bundle.js:2:46736)
+    at e.OnnxruntimeWebAssemblySessionHandler.run (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/vendor.bundle.js:2:49247)
+    at u.run (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/vendor.bundle.js:2:22506)
+    at _0x447fd8.<computed>.getRecommendations (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/server.bundle.js:1:173713)
+    at _0x3f97a8.updateCompletionResults (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/server.bundle.js:1:185151)
+    at async Promise.all (index 1)
+    at V.getCompletionsForPosition (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/pyright.bundle.js:1:362414)
+    at /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/server.bundle.js:1:475890
+    at _0x5a1e41.getWorkspaceCompletionsForPosition (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/server.bundle.js:1:475674)
+    at _0x5a1e41.onCompletion (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/pyright.bundle.js:1:1051944)
+    at _0x5a1e41._onCompletion (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/server.bundle.js:1:480586)
+Got invalid dimensions for input: input_batch:0 for the following indices
+ index: 1 Got: 102 Expected: 100
+ Please fix either the inputs or the model.
+[Error - 12:14:17 AM] (2587) IntelliCode exception: Error: failed to call OrtRun(). error code = 2.
+    at Object.e.run (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/vendor.bundle.js:2:56662)
+    at Object.e.run (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/vendor.bundle.js:2:46736)
+    at e.OnnxruntimeWebAssemblySessionHandler.run (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/vendor.bundle.js:2:49247)
+    at u.run (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/vendor.bundle.js:2:22506)
+    at _0x447fd8.<computed>.getRecommendations (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/server.bundle.js:1:173713)
+    at _0x3f97a8.updateCompletionResults (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/server.bundle.js:1:185151)
+    at async Promise.all (index 1)
+    at V.getCompletionsForPosition (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/pyright.bundle.js:1:362414)
+    at /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/server.bundle.js:1:475890
+    at _0x5a1e41.getWorkspaceCompletionsForPosition (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/server.bundle.js:1:475674)
+    at _0x5a1e41.onCompletion (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/pyright.bundle.js:1:1051944)
+    at _0x5a1e41._onCompletion (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/server.bundle.js:1:480586)
+Got invalid dimensions for input: input_batch:0 for the following indices
+ index: 1 Got: 102 Expected: 100
+ Please fix either the inputs or the model.
+[Error - 12:14:17 AM] (2587) IntelliCode exception: Error: failed to call OrtRun(). error code = 2.
+    at Object.e.run (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/vendor.bundle.js:2:56662)
+    at Object.e.run (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/vendor.bundle.js:2:46736)
+    at e.OnnxruntimeWebAssemblySessionHandler.run (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/vendor.bundle.js:2:49247)
+    at u.run (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/vendor.bundle.js:2:22506)
+    at _0x447fd8.<computed>.getRecommendations (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/server.bundle.js:1:173713)
+    at _0x3f97a8.updateCompletionResults (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/server.bundle.js:1:185151)
+    at async Promise.all (index 1)
+    at V.getCompletionsForPosition (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/pyright.bundle.js:1:362414)
+    at /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/server.bundle.js:1:475890
+    at _0x5a1e41.getWorkspaceCompletionsForPosition (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/server.bundle.js:1:475674)
+    at _0x5a1e41.onCompletion (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/pyright.bundle.js:1:1051944)
+    at _0x5a1e41._onCompletion (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30/dist/server.bundle.js:1:480586)

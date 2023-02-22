@@ -1,0 +1,50 @@
+[2023-02-22 04:49:55.036] [GIT  ] [/root/backend] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 41 ms
+
+[2023-02-22 04:49:55.065] [GIT  ] [/root/backend/User] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 26 ms
+
+[2023-02-22 05:08:36.029] [GIT  ] [/root/backend/backend] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 8 ms
+
+[2023-02-22 05:09:01.740] [GIT  ] [/root/backend/backend] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 8 ms
+
+[2023-02-22 05:09:09.181] [GIT  ] [/root/backend/User] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 8 ms
+
+[2023-02-22 05:46:12.897] [GIT  ] [/root/backend/backend] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 8 ms
+
+[2023-02-22 05:46:38.461] [GIT  ] [/root/backend/User] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 8 ms
+
+[2023-02-22 07:46:02.394] [GIT  ] [/root/backend/Image] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 9 ms
+
+[2023-02-22 07:46:05.190] [GIT  ] [/root/backend/Image] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 8 ms
+
+[2023-02-22 07:46:15.949] [GIT  ] [/root/backend/Image] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 7 ms
+
+[2023-02-22 07:46:42.069] [GIT  ] [/root/backend/Image] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 7 ms
+
+[2023-02-22 07:57:06.790] [GIT  ] [/root/backend/Image] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 11 ms
+
+[2023-02-22 07:58:44.106] [GIT  ] [/root/backend/Image] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 7 ms
+
+[2023-02-22 07:58:44.487] [GIT  ] [/root/backend/Image] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 8 ms
+
+[2023-02-22 07:59:23.081] [GIT  ] [/root/backend/User] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 9 ms
+
+[2023-02-22 08:11:08.470] [GIT  ] [/root/backend/Image] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 8 ms
+
+[2023-02-22 17:12:42.125] [GIT  ] [/root/backend] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 9 ms
+
+[2023-02-22 17:28:54.206] [GIT  ] [/root/backend/Image/migrations] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 9 ms
+
+[2023-02-22 17:30:00.209] [GIT  ] [/root/backend/Image/migrations] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 11 ms
+
+[2023-02-22 17:43:09.538] [GIT  ] [/root/backend/Image/migrations] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 9 ms
+
+[2023-02-22 17:53:57.854] [GIT  ] [/root/backend/Feed] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 7 ms
+
+[2023-02-22 17:54:00.135] [GIT  ] [/root/backend/Feed] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 8 ms
+
+[2023-02-22 18:32:15.918] [GIT  ] [/root/backend/Feed] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 10 ms
+
+[2023-02-22 18:32:36.968] [GIT  ] [/root/backend/Feed] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 10 ms
+
+[2023-02-22 22:29:50.818] [GIT  ] [/root/backend] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • bad revision '@' • 9 ms
+

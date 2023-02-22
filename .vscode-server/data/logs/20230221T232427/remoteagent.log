@@ -1,0 +1,305 @@
+2023-02-21 23:24:27.763 [info] 
+
+
+
+
+2023-02-21 23:24:27.763 [info] Extension host agent started.
+2023-02-21 23:24:27.803 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2023-02-21 23:24:27.822 [debug] ComputeTargetPlatform: linux-x64
+2023-02-21 23:24:27.849 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2023-02-21 23:24:27.997 [info] [127.0.0.1][84cb1e2a][ManagementConnection] New connection established.
+2023-02-21 23:24:28.356 [info] [127.0.0.1][d34f081d][ExtensionHostConnection] New connection established.
+2023-02-21 23:24:28.360 [info] [127.0.0.1][d34f081d][ExtensionHostConnection] <252> Launched Extension Host Process.
+2023-02-21 23:24:29.644 [info] Getting Manifest... bibhasdn.django-html
+2023-02-21 23:24:29.645 [info] Getting Manifest... batisteo.vscode-django
+2023-02-21 23:24:29.645 [info] Getting Manifest... alexcvzz.vscode-sqlite
+2023-02-21 23:24:29.646 [info] Getting Manifest... donjayamanne.python-environment-manager
+2023-02-21 23:24:29.667 [info] Getting Manifest... donjayamanne.python-extension-pack
+2023-02-21 23:24:29.684 [info] Getting Manifest... dzhavat.bracket-pair-toggler
+2023-02-21 23:24:29.693 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-02-21 23:24:29.699 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-02-21 23:24:29.707 [info] Getting Manifest... esbenp.prettier-vscode
+2023-02-21 23:24:29.711 [info] Getting Manifest... ms-python.isort
+2023-02-21 23:24:29.727 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-02-21 23:24:29.744 [info] Getting Manifest... naumovs.color-highlight
+2023-02-21 23:24:29.747 [info] Getting Manifest... wholroyd.jinja
+2023-02-21 23:24:29.758 [info] Getting Manifest... kevinrose.vsc-python-indent
+2023-02-21 23:24:29.766 [info] Getting Manifest... formulahendry.code-runner
+2023-02-21 23:24:29.773 [info] Getting Manifest... pkief.material-icon-theme
+2023-02-21 23:24:29.778 [info] Getting Manifest... visualstudioexptteam.intellicode-api-usage-examples
+2023-02-21 23:24:29.783 [info] Getting Manifest... ms-python.python
+2023-02-21 23:24:29.787 [info] Getting Manifest... njpwerner.autodocstring
+2023-02-21 23:24:29.799 [info] Getting Manifest... vincaslt.highlight-matching-tag
+2023-02-21 23:24:29.806 [info] Getting Manifest... mhutchie.git-graph
+2023-02-21 23:24:29.826 [info] Getting Manifest... ms-azuretools.vscode-docker
+2023-02-21 23:24:29.834 [info] Getting Manifest... ms-toolsai.jupyter
+2023-02-21 23:24:29.838 [info] Getting Manifest... xabikos.javascriptsnippets
+2023-02-21 23:24:29.845 [info] Getting Manifest... ms-python.vscode-pylance
+2023-02-21 23:24:29.852 [info] Getting Manifest... xabikos.reactsnippets
+2023-02-21 23:24:29.860 [info] Getting Manifest... eamodio.gitlens
+2023-02-21 23:24:29.863 [info] Getting Manifest... visualstudioexptteam.vscodeintellicode
+2023-02-21 23:24:29.869 [info] Getting Manifest... vscjava.vscode-java-dependency
+2023-02-21 23:24:29.910 [info] Installing extension: bibhasdn.django-html
+2023-02-21 23:24:29.912 [info] Installing extension: batisteo.vscode-django
+2023-02-21 23:24:29.925 [info] Installing extension: donjayamanne.python-environment-manager
+2023-02-21 23:24:29.934 [info] Installing extension: alexcvzz.vscode-sqlite
+2023-02-21 23:24:29.939 [info] Installing extension: ms-toolsai.jupyter-keymap
+2023-02-21 23:24:29.940 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags
+2023-02-21 23:24:29.948 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow
+2023-02-21 23:24:29.950 [info] Installing extension: kevinrose.vsc-python-indent
+2023-02-21 23:24:29.952 [info] Installing extension: wholroyd.jinja
+2023-02-21 23:24:29.955 [info] Installing extension: formulahendry.code-runner
+2023-02-21 23:24:29.956 [info] Installing extension: naumovs.color-highlight
+2023-02-21 23:24:29.961 [info] Installing extension: ms-python.isort
+2023-02-21 23:24:29.964 [info] Installing extension: njpwerner.autodocstring
+2023-02-21 23:24:29.966 [info] Installing extension: esbenp.prettier-vscode
+2023-02-21 23:24:29.967 [info] Installing extension: dzhavat.bracket-pair-toggler
+2023-02-21 23:24:29.968 [info] Installing extension: donjayamanne.python-extension-pack
+2023-02-21 23:24:29.969 [info] Installing extension: visualstudioexptteam.intellicode-api-usage-examples
+2023-02-21 23:24:29.973 [info] Installing extension: pkief.material-icon-theme
+2023-02-21 23:24:29.985 [info] Installing extension: ms-python.python
+2023-02-21 23:24:30.069 [info] Installing extension: xabikos.javascriptsnippets
+2023-02-21 23:24:30.070 [info] Installing extension: xabikos.reactsnippets
+2023-02-21 23:24:30.072 [info] Installing extension: ms-python.vscode-pylance
+2023-02-21 23:24:30.105 [info] Installing extension: vincaslt.highlight-matching-tag
+2023-02-21 23:24:30.115 [info] Installing extension: ms-toolsai.jupyter
+2023-02-21 23:24:30.120 [info] Installing extension: visualstudioexptteam.vscodeintellicode
+2023-02-21 23:24:30.123 [info] Installing extension: mhutchie.git-graph
+2023-02-21 23:24:30.136 [info] Installing extension: ms-azuretools.vscode-docker
+2023-02-21 23:24:30.155 [info] Installing extension: vscjava.vscode-java-dependency
+2023-02-21 23:24:30.165 [info] Installing extension: eamodio.gitlens
+2023-02-21 23:24:30.274 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-02-21 23:24:30.754 [info] Installing extension: ms-toolsai.jupyter-renderers
+2023-02-21 23:24:30.920 [info] [127.0.0.1][84cb1e2a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-02-21 23:24:30.922 [info] [127.0.0.1][d34f081d][ExtensionHostConnection] <252> Extension Host Process exited with code: 0, signal: null.
+2023-02-21 23:24:31.454 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-02-21 23:24:31.464 [info] Getting Manifest... visualstudioexptteam.intellicode-api-usage-examples
+2023-02-21 23:24:31.989 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-02-21 23:24:32.193 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-02-21 23:24:32.248 [info] Getting Manifest... ms-python.python
+2023-02-21 23:24:32.295 [info] Getting Manifest... ms-python.python
+2023-02-21 23:24:32.349 [info] Waiting for already requested installing extension visualstudioexptteam.intellicode-api-usage-examples visualstudioexptteam.vscodeintellicode
+2023-02-21 23:24:32.351 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-02-21 23:24:32.917 [info] Waiting for already requested installing extension ms-toolsai.jupyter-keymap ms-toolsai.jupyter
+2023-02-21 23:24:32.917 [info] Waiting for already requested installing extension ms-toolsai.jupyter-renderers ms-toolsai.jupyter
+2023-02-21 23:24:32.917 [info] Waiting for already requested installing extension ms-toolsai.vscode-jupyter-cell-tags ms-toolsai.jupyter
+2023-02-21 23:24:32.917 [info] Waiting for already requested installing extension ms-toolsai.vscode-jupyter-slideshow ms-toolsai.jupyter
+2023-02-21 23:24:33.117 [info] Getting Manifest... ms-python.python
+2023-02-21 23:24:33.456 [info] Getting Manifest... ms-toolsai.jupyter
+2023-02-21 23:24:34.105 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-02-21 23:24:34.502 [info] Extracted extension to /root/.vscode-server/extensions/.bb0f3a03-e20e-4e28-bc5c-91de285574aa: ms-toolsai.vscode-jupyter-slideshow
+2023-02-21 23:24:34.597 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5
+2023-02-21 23:24:34.661 [info] Extracting completed. ms-toolsai.vscode-jupyter-slideshow
+2023-02-21 23:24:34.662 [info] Extracted extension to /root/.vscode-server/extensions/.a57e5957-4071-4030-a508-7a46bde22db7: ms-toolsai.vscode-jupyter-cell-tags
+2023-02-21 23:24:34.681 [info] Getting Manifest... ms-toolsai.jupyter
+2023-02-21 23:24:34.791 [info] Getting Manifest... ms-toolsai.jupyter
+2023-02-21 23:24:34.976 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2023-02-21 23:24:34.977 [info] Finished waiting for already requested installing extension ms-toolsai.vscode-jupyter-slideshow ms-toolsai.jupyter
+2023-02-21 23:24:34.980 [info] Extension signature verification: donjayamanne.python-environment-manager. Verification status: Verified.
+2023-02-21 23:24:34.981 [info] Extension signature verification: wholroyd.jinja. Verification status: Verified.
+2023-02-21 23:24:34.982 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.6
+2023-02-21 23:24:34.984 [info] Extension signature verification: ms-toolsai.jupyter-keymap. Verification status: Verified.
+2023-02-21 23:24:35.098 [info] Extension signature verification: bibhasdn.django-html. Verification status: Verified.
+2023-02-21 23:24:35.107 [info] Extension signature verification: njpwerner.autodocstring. Verification status: Verified.
+2023-02-21 23:24:35.108 [info] Extension signature verification: esbenp.prettier-vscode. Verification status: Verified.
+2023-02-21 23:24:35.108 [info] Extension signature verification: vincaslt.highlight-matching-tag. Verification status: Verified.
+2023-02-21 23:24:35.150 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-02-21 23:24:35.168 [info] Extracting completed. ms-toolsai.vscode-jupyter-cell-tags
+2023-02-21 23:24:35.190 [info] Extension signature verification: dzhavat.bracket-pair-toggler. Verification status: Verified.
+2023-02-21 23:24:35.249 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2023-02-21 23:24:35.250 [info] Finished waiting for already requested installing extension ms-toolsai.vscode-jupyter-cell-tags ms-toolsai.jupyter
+2023-02-21 23:24:35.251 [info] Extracted extension to /root/.vscode-server/extensions/.26e0d630-f94b-48d5-a305-746acef0df2c: kevinrose.vsc-python-indent
+2023-02-21 23:24:35.326 [info] Extension signature verification: eamodio.gitlens. Verification status: Verified.
+2023-02-21 23:24:35.329 [info] Extension signature verification: batisteo.vscode-django. Verification status: Verified.
+2023-02-21 23:24:35.333 [info] Renamed to /root/.vscode-server/extensions/kevinrose.vsc-python-indent-1.18.0
+2023-02-21 23:24:35.361 [info] Getting Manifest... ms-toolsai.jupyter
+2023-02-21 23:24:35.368 [info] Extension signature verification: ms-toolsai.jupyter-renderers. Verification status: Verified.
+2023-02-21 23:24:35.368 [info] Extracting completed. kevinrose.vsc-python-indent
+2023-02-21 23:24:35.371 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-02-21 23:24:35.409 [info] Extension installed successfully: kevinrose.vsc-python-indent
+2023-02-21 23:24:35.422 [info] Extracted extension to /root/.vscode-server/extensions/.9f09c74e-90d6-4187-8cab-4fe4d68407af: ms-toolsai.jupyter-keymap
+2023-02-21 23:24:35.433 [info] Extracted extension to /root/.vscode-server/extensions/.5592d716-83dd-4b2d-8714-8f5660ab5220: vscjava.vscode-java-dependency
+2023-02-21 23:24:35.460 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.jupyter-keymap-1.0.0
+2023-02-21 23:24:35.465 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-02-21 23:24:35.481 [info] Renamed to /root/.vscode-server/extensions/vscjava.vscode-java-dependency-0.21.1
+2023-02-21 23:24:35.494 [info] Extracting completed. ms-toolsai.jupyter-keymap
+2023-02-21 23:24:35.495 [info] Extracted extension to /root/.vscode-server/extensions/.1f2f1ddc-1f42-4133-a63f-5ab5aa4d2c5c: bibhasdn.django-html
+2023-02-21 23:24:35.513 [info] Extension signature verification: ms-toolsai.jupyter. Verification status: Verified.
+2023-02-21 23:24:35.516 [info] Extracting completed. vscjava.vscode-java-dependency
+2023-02-21 23:24:35.516 [info] Extracted extension to /root/.vscode-server/extensions/.618baf02-716c-4ead-b611-56cd36763001: dzhavat.bracket-pair-toggler
+2023-02-21 23:24:35.530 [info] Extracted extension to /root/.vscode-server/extensions/.d0d9a8d3-b175-444c-8283-9c24e3996bdc: wholroyd.jinja
+2023-02-21 23:24:35.533 [info] Renamed to /root/.vscode-server/extensions/bibhasdn.django-html-1.3.0
+2023-02-21 23:24:35.548 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2023-02-21 23:24:35.548 [info] Finished waiting for already requested installing extension ms-toolsai.jupyter-keymap ms-toolsai.jupyter
+2023-02-21 23:24:35.553 [info] Renamed to /root/.vscode-server/extensions/dzhavat.bracket-pair-toggler-0.0.3
+2023-02-21 23:24:35.554 [info] Extracting completed. bibhasdn.django-html
+2023-02-21 23:24:35.560 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-02-21 23:24:35.570 [info] Renamed to /root/.vscode-server/extensions/wholroyd.jinja-0.0.8
+2023-02-21 23:24:35.574 [info] Extracting completed. dzhavat.bracket-pair-toggler
+2023-02-21 23:24:35.589 [info] Extension installed successfully: vscjava.vscode-java-dependency
+2023-02-21 23:24:35.591 [info] Extracting completed. wholroyd.jinja
+2023-02-21 23:24:35.695 [info] Extension installed successfully: bibhasdn.django-html
+2023-02-21 23:24:35.711 [info] Extension signature verification: pkief.material-icon-theme. Verification status: Verified.
+2023-02-21 23:24:35.717 [info] Extension signature verification: xabikos.javascriptsnippets. Verification status: Verified.
+2023-02-21 23:24:35.730 [info] Extracted extension to /root/.vscode-server/extensions/.4f9140cc-f4d9-490f-8abb-1b6ebab48d60: vincaslt.highlight-matching-tag
+2023-02-21 23:24:35.742 [info] Getting Manifest... ms-python.vscode-pylance
+2023-02-21 23:24:35.770 [info] Extension installed successfully: dzhavat.bracket-pair-toggler
+2023-02-21 23:24:35.772 [info] Renamed to /root/.vscode-server/extensions/vincaslt.highlight-matching-tag-0.10.1
+2023-02-21 23:24:35.784 [info] Extension signature verification: mhutchie.git-graph. Verification status: Verified.
+2023-02-21 23:24:35.791 [info] Extracting completed. vincaslt.highlight-matching-tag
+2023-02-21 23:24:35.794 [info] Extension installed successfully: wholroyd.jinja
+2023-02-21 23:24:35.807 [info] Extension signature verification: xabikos.reactsnippets. Verification status: Verified.
+2023-02-21 23:24:35.843 [info] Extension installed successfully: vincaslt.highlight-matching-tag
+2023-02-21 23:24:35.853 [info] Extracted extension to /root/.vscode-server/extensions/.9422a14e-2545-4342-8e81-add02e47224d: xabikos.javascriptsnippets
+2023-02-21 23:24:35.883 [info] Renamed to /root/.vscode-server/extensions/xabikos.javascriptsnippets-1.8.0
+2023-02-21 23:24:35.927 [info] Extracting completed. xabikos.javascriptsnippets
+2023-02-21 23:24:35.933 [info] Extension signature verification: naumovs.color-highlight. Verification status: Verified.
+2023-02-21 23:24:35.945 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-02-21 23:24:35.953 [info] Extension signature verification: visualstudioexptteam.vscodeintellicode. Verification status: Verified.
+2023-02-21 23:24:35.963 [info] Getting Manifest... ms-python.isort
+2023-02-21 23:24:35.978 [info] Extension installed successfully: xabikos.javascriptsnippets
+2023-02-21 23:24:36.019 [info] Extension signature verification: alexcvzz.vscode-sqlite. Verification status: Verified.
+2023-02-21 23:24:36.099 [info] Extension signature verification: visualstudioexptteam.intellicode-api-usage-examples. Verification status: Verified.
+2023-02-21 23:24:36.100 [info] Extension signature verification: formulahendry.code-runner. Verification status: Verified.
+2023-02-21 23:24:36.183 [info] Extension signature verification: ms-azuretools.vscode-docker. Verification status: Verified.
+2023-02-21 23:24:36.202 [info] Waiting for already requested installing extension ms-toolsai.jupyter ms-python.python
+2023-02-21 23:24:36.203 [info] Waiting for already requested installing extension ms-toolsai.jupyter-renderers ms-python.python
+2023-02-21 23:24:36.203 [info] Waiting for already requested installing extension ms-python.vscode-pylance ms-python.python
+2023-02-21 23:24:36.203 [info] Waiting for already requested installing extension ms-python.isort ms-python.python
+2023-02-21 23:24:36.250 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-02-21 23:24:36.257 [info] Extracted extension to /root/.vscode-server/extensions/.41b1fbcb-b29f-4057-869b-cef62c7dd9b8: xabikos.reactsnippets
+2023-02-21 23:24:36.290 [info] Renamed to /root/.vscode-server/extensions/xabikos.reactsnippets-2.4.0
+2023-02-21 23:24:36.295 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-02-21 23:24:36.310 [info] Extracting completed. xabikos.reactsnippets
+2023-02-21 23:24:36.324 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-02-21 23:24:36.341 [info] Extension installed successfully: xabikos.reactsnippets
+2023-02-21 23:24:36.468 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-02-21 23:24:36.489 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-02-21 23:24:36.609 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-02-21 23:24:36.616 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-02-21 23:24:36.650 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-02-21 23:24:36.782 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-02-21 23:24:36.797 [info] Getting Manifest... ms-python.vscode-pylance
+2023-02-21 23:24:36.821 [info] Getting Manifest... ms-python.vscode-pylance
+2023-02-21 23:24:36.947 [info] Extracted extension to /root/.vscode-server/extensions/.59b90cda-27c3-499e-9982-e61e84040a4e: njpwerner.autodocstring
+2023-02-21 23:24:36.957 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-02-21 23:24:37.013 [info] Renamed to /root/.vscode-server/extensions/njpwerner.autodocstring-0.6.1
+2023-02-21 23:24:37.018 [info] Getting Manifest... ms-python.isort
+2023-02-21 23:24:37.040 [info] Extracting completed. njpwerner.autodocstring
+2023-02-21 23:24:37.149 [info] Extension installed successfully: njpwerner.autodocstring
+2023-02-21 23:24:37.201 [info] Getting Manifest... ms-python.isort
+2023-02-21 23:24:37.222 [info] Getting Manifest... visualstudioexptteam.vscodeintellicode
+2023-02-21 23:24:37.362 [info] Extracted extension to /root/.vscode-server/extensions/.b1c5d7e4-e154-4d8f-814e-91998b5008a9: mhutchie.git-graph
+2023-02-21 23:24:37.363 [info] [127.0.0.1][8f221683][ManagementConnection] New connection established.
+2023-02-21 23:24:37.423 [info] Renamed to /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0
+2023-02-21 23:24:37.638 [info] Extension signature verification: ms-python.python. Verification status: Verified.
+2023-02-21 23:24:37.733 [info] Extracting completed. mhutchie.git-graph
+2023-02-21 23:24:37.842 [info] [127.0.0.1][26d70eda][ExtensionHostConnection] New connection established.
+2023-02-21 23:24:37.876 [info] [127.0.0.1][26d70eda][ExtensionHostConnection] <905> Launched Extension Host Process.
+2023-02-21 23:24:37.907 [info] Getting Manifest... visualstudioexptteam.intellicode-api-usage-examples
+2023-02-21 23:24:38.040 [info] Extension installed successfully: mhutchie.git-graph
+2023-02-21 23:24:38.141 [info] Getting Manifest... batisteo.vscode-django
+2023-02-21 23:24:38.301 [info] Extracted extension to /root/.vscode-server/extensions/.bae5d357-9763-4e82-8479-1147032d98c8: batisteo.vscode-django
+2023-02-21 23:24:38.345 [info] Getting Manifest... wholroyd.jinja
+2023-02-21 23:24:38.355 [info] Renamed to /root/.vscode-server/extensions/batisteo.vscode-django-1.10.0
+2023-02-21 23:24:38.371 [info] Extracting completed. batisteo.vscode-django
+2023-02-21 23:24:38.398 [info] Extension installed successfully: batisteo.vscode-django
+2023-02-21 23:24:38.464 [info] Extracted extension to /root/.vscode-server/extensions/.304444ab-855f-43ad-879f-d5ca88821069: esbenp.prettier-vscode
+2023-02-21 23:24:38.485 [info] Renamed to /root/.vscode-server/extensions/esbenp.prettier-vscode-9.10.4
+2023-02-21 23:24:38.504 [info] Getting Manifest... njpwerner.autodocstring
+2023-02-21 23:24:38.517 [info] Extracting completed. esbenp.prettier-vscode
+2023-02-21 23:24:38.545 [info] Extension installed successfully: esbenp.prettier-vscode
+2023-02-21 23:24:38.559 [info] Extracted extension to /root/.vscode-server/extensions/.83de5942-f9c1-4f49-ab12-f99f77301e66: alexcvzz.vscode-sqlite
+2023-02-21 23:24:38.601 [info] Renamed to /root/.vscode-server/extensions/alexcvzz.vscode-sqlite-0.14.1
+2023-02-21 23:24:38.613 [info] Extracting completed. alexcvzz.vscode-sqlite
+2023-02-21 23:24:38.639 [info] Extension signature verification: ms-python.isort. Verification status: Verified.
+2023-02-21 23:24:38.647 [info] Extension installed successfully: alexcvzz.vscode-sqlite
+2023-02-21 23:24:38.660 [info] Getting Manifest... kevinrose.vsc-python-indent
+2023-02-21 23:24:38.772 [info] Extracted extension to /root/.vscode-server/extensions/.06b04ab1-3658-4f7d-96c6-54e33dce62e1: ms-azuretools.vscode-docker
+2023-02-21 23:24:38.789 [info] Renamed to /root/.vscode-server/extensions/ms-azuretools.vscode-docker-1.23.3
+2023-02-21 23:24:38.803 [info] Extracting completed. ms-azuretools.vscode-docker
+2023-02-21 23:24:38.810 [info] Getting Manifest... donjayamanne.python-environment-manager
+2023-02-21 23:24:38.827 [info] Extension installed successfully: ms-azuretools.vscode-docker
+2023-02-21 23:24:39.005 [info] Waiting for already requested installing extension ms-python.python donjayamanne.python-extension-pack
+2023-02-21 23:24:39.005 [info] Waiting for already requested installing extension ms-toolsai.jupyter donjayamanne.python-extension-pack
+2023-02-21 23:24:39.005 [info] Waiting for already requested installing extension ms-toolsai.jupyter-renderers donjayamanne.python-extension-pack
+2023-02-21 23:24:39.006 [info] Waiting for already requested installing extension ms-python.vscode-pylance donjayamanne.python-extension-pack
+2023-02-21 23:24:39.006 [info] Waiting for already requested installing extension ms-python.isort donjayamanne.python-extension-pack
+2023-02-21 23:24:39.006 [info] Waiting for already requested installing extension visualstudioexptteam.vscodeintellicode donjayamanne.python-extension-pack
+2023-02-21 23:24:39.006 [info] Waiting for already requested installing extension visualstudioexptteam.intellicode-api-usage-examples donjayamanne.python-extension-pack
+2023-02-21 23:24:39.006 [info] Waiting for already requested installing extension donjayamanne.python-environment-manager donjayamanne.python-extension-pack
+2023-02-21 23:24:39.227 [info] Extension signature verification: ms-python.vscode-pylance. Verification status: Verified.
+2023-02-21 23:24:39.593 [info] Extracted extension to /root/.vscode-server/extensions/.a773b09a-f63e-4723-b300-fa7cb14ee503: ms-toolsai.jupyter-renderers
+2023-02-21 23:24:39.616 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.14
+2023-02-21 23:24:39.621 [info] Extracted extension to /root/.vscode-server/extensions/.077f8ae4-4b66-4fcc-b994-f6f377f5014e: formulahendry.code-runner
+2023-02-21 23:24:39.628 [info] Extracting completed. ms-toolsai.jupyter-renderers
+2023-02-21 23:24:39.641 [info] Renamed to /root/.vscode-server/extensions/formulahendry.code-runner-0.12.0
+2023-02-21 23:24:39.649 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-02-21 23:24:39.649 [info] Finished waiting for already requested installing extension ms-toolsai.jupyter-renderers ms-toolsai.jupyter
+2023-02-21 23:24:39.649 [info] Finished waiting for already requested installing extension ms-toolsai.jupyter-renderers ms-python.python
+2023-02-21 23:24:39.649 [info] Finished waiting for already requested installing extension ms-toolsai.jupyter-renderers donjayamanne.python-extension-pack
+2023-02-21 23:24:39.652 [info] Extracting completed. formulahendry.code-runner
+2023-02-21 23:24:39.678 [info] Extension installed successfully: formulahendry.code-runner
+2023-02-21 23:24:39.854 [info] Extracted extension to /root/.vscode-server/extensions/.916212f8-baf6-4a74-813b-b2f22acfffde: visualstudioexptteam.intellicode-api-usage-examples
+2023-02-21 23:24:39.869 [info] Renamed to /root/.vscode-server/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.7
+2023-02-21 23:24:39.879 [info] Extracting completed. visualstudioexptteam.intellicode-api-usage-examples
+2023-02-21 23:24:39.894 [info] Extension installed successfully: visualstudioexptteam.intellicode-api-usage-examples
+2023-02-21 23:24:39.895 [info] Finished waiting for already requested installing extension visualstudioexptteam.intellicode-api-usage-examples visualstudioexptteam.vscodeintellicode
+2023-02-21 23:24:39.895 [info] Finished waiting for already requested installing extension visualstudioexptteam.intellicode-api-usage-examples donjayamanne.python-extension-pack
+2023-02-21 23:24:40.129 [info] Extension signature verification: donjayamanne.python-extension-pack. Verification status: Verified.
+2023-02-21 23:24:40.218 [info] Extracted extension to /root/.vscode-server/extensions/.8ec48a3c-6604-4c7d-9963-aba35b2b0222: donjayamanne.python-extension-pack
+2023-02-21 23:24:40.236 [info] Renamed to /root/.vscode-server/extensions/donjayamanne.python-extension-pack-1.7.0
+2023-02-21 23:24:40.246 [info] Extracting completed. donjayamanne.python-extension-pack
+2023-02-21 23:24:40.624 [info] Extracted extension to /root/.vscode-server/extensions/.8a98e143-df91-45a5-8082-148f4602c7d9: naumovs.color-highlight
+2023-02-21 23:24:40.637 [info] Renamed to /root/.vscode-server/extensions/naumovs.color-highlight-2.5.0
+2023-02-21 23:24:40.644 [info] Extracting completed. naumovs.color-highlight
+2023-02-21 23:24:40.662 [info] Extension installed successfully: naumovs.color-highlight
+2023-02-21 23:24:41.011 [info] Extracted extension to /root/.vscode-server/extensions/.385ebf9b-9270-4597-9744-2e4c46fe2b9a: ms-python.isort
+2023-02-21 23:24:41.022 [info] Renamed to /root/.vscode-server/extensions/ms-python.isort-2022.8.0
+2023-02-21 23:24:41.028 [info] Extracting completed. ms-python.isort
+2023-02-21 23:24:41.040 [info] Extension installed successfully: ms-python.isort
+2023-02-21 23:24:41.041 [info] Finished waiting for already requested installing extension ms-python.isort ms-python.python
+2023-02-21 23:24:41.041 [info] Finished waiting for already requested installing extension ms-python.isort donjayamanne.python-extension-pack
+2023-02-21 23:24:41.188 [info] Extracted extension to /root/.vscode-server/extensions/.861b9741-9860-4b65-b718-32ae7238ce31: eamodio.gitlens
+2023-02-21 23:24:41.208 [info] Renamed to /root/.vscode-server/extensions/eamodio.gitlens-13.2.0
+2023-02-21 23:24:41.217 [info] Extracting completed. eamodio.gitlens
+2023-02-21 23:24:41.231 [info] Extension installed successfully: eamodio.gitlens
+2023-02-21 23:24:41.691 [info] Extracted extension to /root/.vscode-server/extensions/.14956b9e-22cb-4783-bdba-d4bc17441c55: ms-toolsai.jupyter
+2023-02-21 23:24:41.705 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.jupyter-2023.1.2010391206
+2023-02-21 23:24:41.717 [info] Extracting completed. ms-toolsai.jupyter
+2023-02-21 23:24:41.728 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-02-21 23:24:41.730 [info] Finished waiting for already requested installing extension ms-toolsai.jupyter ms-python.python
+2023-02-21 23:24:41.730 [info] Finished waiting for already requested installing extension ms-toolsai.jupyter donjayamanne.python-extension-pack
+2023-02-21 23:24:42.691 [info] Extracted extension to /root/.vscode-server/extensions/.2cd89de5-7240-43a5-afbd-55ef5ba0b8c3: pkief.material-icon-theme
+2023-02-21 23:24:42.701 [info] Renamed to /root/.vscode-server/extensions/pkief.material-icon-theme-4.24.0
+2023-02-21 23:24:42.705 [info] Extracting completed. pkief.material-icon-theme
+2023-02-21 23:24:42.713 [info] Extension installed successfully: pkief.material-icon-theme
+2023-02-21 23:24:45.357 [info] Extracted extension to /root/.vscode-server/extensions/.6a60ae32-f732-4c43-bc69-4ca61fb6d379: visualstudioexptteam.vscodeintellicode
+2023-02-21 23:24:45.373 [info] Renamed to /root/.vscode-server/extensions/visualstudioexptteam.vscodeintellicode-1.2.30
+2023-02-21 23:24:45.376 [info] Extracting completed. visualstudioexptteam.vscodeintellicode
+2023-02-21 23:24:45.385 [info] Extension installed successfully: visualstudioexptteam.vscodeintellicode
+2023-02-21 23:24:45.386 [info] Finished waiting for already requested installing extension visualstudioexptteam.vscodeintellicode donjayamanne.python-extension-pack
+2023-02-21 23:24:45.481 [info] Extracted extension to /root/.vscode-server/extensions/.4d422cf5-98c8-4831-b687-0f3ac276c816: donjayamanne.python-environment-manager
+2023-02-21 23:24:45.488 [info] Renamed to /root/.vscode-server/extensions/donjayamanne.python-environment-manager-1.0.4
+2023-02-21 23:24:45.491 [info] Extracting completed. donjayamanne.python-environment-manager
+2023-02-21 23:24:45.499 [info] Extension installed successfully: donjayamanne.python-environment-manager
+2023-02-21 23:24:45.500 [info] Finished waiting for already requested installing extension donjayamanne.python-environment-manager donjayamanne.python-extension-pack
+2023-02-21 23:24:45.803 [info] Extracted extension to /root/.vscode-server/extensions/.6465e038-bef6-42da-b54d-2c3364daa9dc: ms-python.python
+2023-02-21 23:24:45.810 [info] Renamed to /root/.vscode-server/extensions/ms-python.python-2023.2.0
+2023-02-21 23:24:45.813 [info] Extracting completed. ms-python.python
+2023-02-21 23:24:47.204 [info] Extracted extension to /root/.vscode-server/extensions/.be8e5696-badc-46c0-ade7-44b338f1a68c: ms-python.vscode-pylance
+2023-02-21 23:24:47.215 [info] Renamed to /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.2.30
+2023-02-21 23:24:47.217 [info] Extracting completed. ms-python.vscode-pylance
+2023-02-21 23:24:47.224 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-02-21 23:24:47.225 [info] Finished waiting for already requested installing extension ms-python.vscode-pylance ms-python.python
+2023-02-21 23:24:47.225 [info] Finished waiting for already requested installing extension ms-python.vscode-pylance donjayamanne.python-extension-pack
+2023-02-21 23:24:47.225 [info] Extension installed successfully: ms-python.python
+2023-02-21 23:24:47.227 [info] Finished waiting for already requested installing extension ms-python.python donjayamanne.python-extension-pack
+2023-02-21 23:24:47.227 [info] Extension installed successfully: donjayamanne.python-extension-pack
+2023-02-21 23:25:29.413 [info] [127.0.0.1][8f221683][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-02-21 23:25:29.496 [info] [127.0.0.1][26d70eda][ExtensionHostConnection] <905> Extension Host Process exited with code: 0, signal: null.
+2023-02-21 23:25:33.139 [info] [127.0.0.1][8068f50e][ManagementConnection] New connection established.
+2023-02-21 23:25:33.633 [info] [127.0.0.1][3c7e1e64][ExtensionHostConnection] New connection established.
+2023-02-21 23:25:33.688 [info] [127.0.0.1][3c7e1e64][ExtensionHostConnection] <2465> Launched Extension Host Process.
+2023-02-22 00:20:18.800 [info] [127.0.0.1][8068f50e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-02-22 00:20:18.948 [info] [127.0.0.1][3c7e1e64][ExtensionHostConnection] <2465> Extension Host Process exited with code: 0, signal: null.
