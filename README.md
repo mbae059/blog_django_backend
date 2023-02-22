@@ -9,3 +9,11 @@ This is the django backend for the project
 ```
 docker run -it --name (my-container-name) mbae059/group_backend:v1
 ```
+
+> To make the environment same, use docker
+
+> If you can want to create a venv and download the pip yourself, download via git
+
+Git will be the updated more than Docker
+
+Use docker once and from that point, use git
