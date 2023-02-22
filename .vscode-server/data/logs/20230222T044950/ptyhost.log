@@ -1,0 +1,5 @@
+2023-02-22 22:38:32.568 [warning] Couldn't get layout info, a terminal was probably disconnected Could not find pty on pty host
+2023-02-22 22:38:33.690 [info] Persistent process reconnection "3"
+2023-02-22 22:38:33.690 [info] Persistent process reconnection "1"
+2023-02-22 22:38:34.858 [info] Persistent process "3": Replaying 7471 chars and 1 size events
+2023-02-22 22:38:34.892 [info] Persistent process "1": Replaying 5602 chars and 1 size events

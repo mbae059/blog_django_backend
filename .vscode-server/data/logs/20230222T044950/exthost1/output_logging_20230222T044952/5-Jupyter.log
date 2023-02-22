@@ -7,3 +7,6 @@ User belongs to experiment group 'jupyterEnhancedDataViewer'
 info 04:49:53.769: LSP Notebooks experiment is enabled
 info 04:49:54.958: Process Execution: > /usr/local/bin/python -m pip list
 > /usr/local/bin/python -m pip list
+info 22:38:28.394: Shutting down notebooks for 47c211d8-72f5-4f92-aabc-e872cd431d12
+info 22:38:28.395: Disposing HostJupyterExecution aa20a8f6-bdac-4e0c-8f19-6b66b09cd2b2
+info 22:38:28.398: Disposing HostJupyterExecution aa20a8f6-bdac-4e0c-8f19-6b66b09cd2b2

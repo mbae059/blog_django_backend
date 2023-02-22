@@ -19,3 +19,11 @@
 2023-02-22 20:55:35.701 [info] [127.0.0.1][50c9b895][ExtensionHostConnection] The client has reconnected.
 2023-02-22 22:05:01.938 [warning] No ptyHost heartbeat after 6 seconds
 2023-02-22 22:30:49.112 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2023-02-22 22:38:25.939 [info] Uninstalling extension from the profile: eamodio.gitlens@13.2.0 file:///root/.vscode-server/extensions/extensions.json
+2023-02-22 22:38:26.046 [info] Marked extension as uninstalled eamodio.gitlens-13.2.0
+2023-02-22 22:38:26.713 [info] Successfully uninstalled extension from the profile eamodio.gitlens@13.2.0 file:///root/.vscode-server/extensions/extensions.json
+2023-02-22 22:38:28.298 [info] [127.0.0.1][c204abb4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-02-22 22:38:28.462 [info] [127.0.0.1][50c9b895][ExtensionHostConnection] <228> Extension Host Process exited with code: 0, signal: null.
+2023-02-22 22:38:32.547 [info] [127.0.0.1][d27a0649][ManagementConnection] New connection established.
+2023-02-22 22:38:33.117 [info] [127.0.0.1][3e48c119][ExtensionHostConnection] New connection established.
+2023-02-22 22:38:33.175 [info] [127.0.0.1][3e48c119][ExtensionHostConnection] <17373> Launched Extension Host Process.

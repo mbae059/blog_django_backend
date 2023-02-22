@@ -23,3 +23,6 @@
 [2023-02-22 22:29:34.434] Showing "Git Graph" Status Bar Item
 [2023-02-22 22:30:49.124] Removed repo: /root/backend
 [2023-02-22 22:30:49.124] Hiding "Git Graph" Status Bar Item
+[2023-02-22 22:34:40.810] > git rev-parse --show-toplevel
+[2023-02-22 22:34:40.843] Added new repo: /root
+[2023-02-22 22:34:40.846] Showing "Git Graph" Status Bar Item

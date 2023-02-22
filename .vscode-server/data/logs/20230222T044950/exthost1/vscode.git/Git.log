@@ -1132,3 +1132,50 @@ hint: 	git branch -m <name>
 2023-02-22 22:29:51.477 [info] > git show --textconv :User/models.py [15ms]
 2023-02-22 22:29:51.477 [info] > git show --textconv :Image/views.py [9ms]
 2023-02-22 22:29:51.477 [info] > git show --textconv :Feed/tests.py [1ms]
+2023-02-22 22:33:19.375 [info] > git remote remove origin [0ms]
+2023-02-22 22:33:19.375 [info] error: No such remote: 'origin'
+2023-02-22 22:33:19.393 [warning] ENOENT: no such file or directory, open '/root/backend/.git/HEAD'
+2023-02-22 22:33:19.409 [warning] getRemotes() - ENOENT: no such file or directory, open '/root/backend/.git/config'
+2023-02-22 22:33:19.427 [info] > git remote --verbose [18ms]
+2023-02-22 22:33:19.428 [info] > git symbolic-ref --short HEAD [34ms]
+2023-02-22 22:33:19.446 [info] > git config --get commit.template [19ms]
+2023-02-22 22:33:19.446 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-02-22 22:33:19.490 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-02-22 22:33:19.520 [info] > git status -z -uall [56ms]
+2023-02-22 22:33:20.211 [info] > git check-ignore -v -z --stdin [5ms]
+2023-02-22 22:33:48.152 [info] > git remote add origin https://github.com/mbae059/blog_django_backend.git [2ms]
+2023-02-22 22:33:48.163 [warning] ENOENT: no such file or directory, open '/root/backend/.git/HEAD'
+2023-02-22 22:33:48.171 [warning] getRemotes() - ENOENT: no such file or directory, open '/root/backend/.git/config'
+2023-02-22 22:33:48.179 [info] > git remote --verbose [8ms]
+2023-02-22 22:33:48.179 [info] > git symbolic-ref --short HEAD [16ms]
+2023-02-22 22:33:48.187 [info] > git config --get commit.template [9ms]
+2023-02-22 22:33:48.187 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-02-22 22:33:48.215 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2023-02-22 22:33:48.250 [info] > git status -z -uall [55ms]
+2023-02-22 22:33:48.807 [info] > git fetch origin [548ms]
+2023-02-22 22:33:48.816 [warning] ENOENT: no such file or directory, open '/root/backend/.git/HEAD'
+2023-02-22 22:33:48.824 [warning] getRemotes() - ENOENT: no such file or directory, open '/root/backend/.git/config'
+2023-02-22 22:33:48.833 [info] > git remote --verbose [9ms]
+2023-02-22 22:33:48.834 [info] > git symbolic-ref --short HEAD [17ms]
+2023-02-22 22:33:48.843 [info] > git config --get commit.template [10ms]
+2023-02-22 22:33:48.843 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-02-22 22:33:48.870 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-02-22 22:33:48.907 [info] > git status -z -uall [55ms]
+2023-02-22 22:34:08.460 [info] > git check-ignore -v -z --stdin [13ms]
+2023-02-22 22:34:24.930 [warning] ENOENT: no such file or directory, open '/root/backend/.git/HEAD'
+2023-02-22 22:34:24.942 [warning] getRemotes() - ENOENT: no such file or directory, open '/root/backend/.git/config'
+2023-02-22 22:34:24.955 [info] > git remote --verbose [13ms]
+2023-02-22 22:34:24.955 [info] > git symbolic-ref --short HEAD [25ms]
+2023-02-22 22:34:24.969 [info] > git config --get commit.template [14ms]
+2023-02-22 22:34:24.969 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-02-22 22:34:25.009 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2023-02-22 22:34:25.052 [info] > git status -z -uall [71ms]
+2023-02-22 22:34:40.790 [warning] ENOENT: no such file or directory, open '/root/backend/.git/HEAD'
+2023-02-22 22:34:40.797 [warning] getRemotes() - ENOENT: no such file or directory, open '/root/backend/.git/config'
+2023-02-22 22:34:40.811 [info] > git remote --verbose [15ms]
+2023-02-22 22:34:40.812 [info] > git symbolic-ref --short HEAD [22ms]
+2023-02-22 22:34:40.819 [info] > git config --get commit.template [17ms]
+2023-02-22 22:34:40.819 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-02-22 22:34:40.841 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-02-22 22:34:40.880 [info] > git status -z -uall [52ms]
+2023-02-22 22:34:47.764 [info] > git check-ignore -v -z --stdin [13ms]
