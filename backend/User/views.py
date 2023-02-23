@@ -5,7 +5,21 @@ from .serializers import UserSerializer
 from rest_framework.response import Response
 from rest_framework.exceptions import AuthenticationFailed
 from .models import User
-import jwt, datetime 
+import jwt, datetime
+from django.core.exceptions import ValidationError
+#returns jwt payload
+def getPayload(request):
+    token = request.COOKIES.get('jwt')
+
+    if not token :
+        raise AuthenticationFailed("Unauthenticated")
+    
+    try :
+        payload = jwt.decode(token, 'secret', algorithms=['HS256'])
+    except jwt.ExpiredSignatureError:
+        raise AuthenticationFailed("Unauthenticated")
+    return payload
+
 class RegisterAPI(APIView):
     def post(self, request):
         serializer = UserSerializer(data=request.data)
@@ -42,25 +56,6 @@ class LoginAPI(APIView):
         }
         return response
 
-# class UserAPI(APIView):
-#     def get(self, request):
-#         token = request.COOKIES.get('jwt')
-
-#         if not token :
-#             raise AuthenticationFailed("Unauthenticated")
-        
-#         try :
-#             payload = jwt.decode(token, 'secret', algorithms=['HS256'])
-
-#         except jwt.ExpiredSignatureError:
-#             raise AuthenticationFailed("Unauthenticated")
-
-#         user = User.objects.get(id=payload['id'])
-#         serializer = UserSerializer(user)
-#         return Response(serializer.data)
-
-
-
 class LogoutAPI(APIView):
     def post(self, request):
         response = Response()
@@ -69,3 +64,27 @@ class LogoutAPI(APIView):
             'message' : 'success',
         }
         return response
+    
+class IntroductionAPI(APIView):
+    def get(self, request): #decide get
+        payload = getPayload(request)
+
+        user = User.objects.get(email=payload['email'])
+
+        serializer = UserSerializer(user)
+
+        return Response(serializer.data.get("introduction"))
+    
+    def patch(self, request):
+        payload = getPayload(request)
+
+        user = User.objects.get(email=payload['email'])
+
+        serializer = UserSerializer(user, data=request.data, partial=True)
+
+        try:
+            serializer.is_valid(raise_exception=True)
+            serializer.save()
+            return Response(status=200)
+        except ValidationError as e:
+            return Response({'error': e.detail}, status=400)

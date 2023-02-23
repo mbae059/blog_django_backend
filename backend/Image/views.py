@@ -59,7 +59,7 @@ class ImageAPIView(APIView):
     
     #do not change the content of the image but only name
     #if one wants to change the picture of the feed one created, you should use the post method to post the data and delete the previous one
-    def put(self, request, uuid_name) :
+    def patch(self, request, uuid_name) :
         imageQueryset = Image.objects.filter(uuid_name=uuid_name)
 
         if not imageQueryset.exists():

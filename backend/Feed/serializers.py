@@ -1,16 +1,15 @@
 from rest_framework import serializers
-from .models import User
-class UserSerializer(serializers.ModelSerializer):
+from .models import Feed
+class FeedSerializer(serializers.ModelSerializer):
     class Meta:
-        model = User
+        model = Feed
         fields = ['id', 'name', 'email', 'password', 'introduction']
 
-        #return only data without password
-        extra_kwargs = {
-            'password' : {
-                'write_only' : True,
-            }
-        }
+        # extra_kwargs = {
+        #     'password' : {
+        #         'write_only' : True,
+        #     }
+        # }
     def create(self, validated_data):
         password = validated_data.pop('password', None)
         instance = self.Meta.model(**validated_data)
