@@ -13,3 +13,6 @@ class FeedAPI(APIView):
         serializer = FeedSerializer(feed)
 
         return Response(serializer.data)
+    
+    def post(self, request):
+        pass
