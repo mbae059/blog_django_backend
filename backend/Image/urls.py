@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import ImageAPIView
+from .views import ImageAPI
 urlpatterns = [
-    path('', ImageAPIView.as_view()), #POST
-    path('<str:uuid_name>', ImageAPIView.as_view()), #GET
+    path('', ImageAPI.as_view()), #POST
+    path('<str:uuid_name>', ImageAPI.as_view()), #GET
 ]

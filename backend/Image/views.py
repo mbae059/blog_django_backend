@@ -9,7 +9,7 @@ from rest_framework.exceptions import AuthenticationFailed
 import jwt 
 from User.models import User
 
-class ImageAPIView(APIView):
+class ImageAPI(APIView):
     #view images
     def get(self, request, uuid_name) :
 

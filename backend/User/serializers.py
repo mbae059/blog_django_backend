@@ -3,7 +3,7 @@ from .models import User
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ['id', 'name', 'email', 'password', 'introduction']
+        fields = ['id', 'nickname', 'email', 'password']
 
         #return only data without password
         extra_kwargs = {

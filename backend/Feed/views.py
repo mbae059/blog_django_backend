@@ -1,3 +1,15 @@
-from django.shortcuts import render
+from rest_framework.views import APIView
+from .serializers import FeedSerializer
+from .models import Feed, Like, Comment
+from rest_framework.response import Response
+class FeedAPI(APIView):
+    def get(self, request, nickname, id):
+        
+        try :
+            feed = Feed.objects.get(nickname=nickname, id=id)
+        except Feed.DoesNotExist:
+            return Response(status=404)
+        
+        serializer = FeedSerializer(feed)
 
-# Create your views here.
+        return Response(serializer.data)

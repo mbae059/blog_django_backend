@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     "User",
     "Image",
     "Feed",
-    "Comment",
 ]
 
 MIDDLEWARE = [

@@ -1,5 +1,3 @@
-from re import search
-from urllib import response
 from rest_framework.views import APIView
 from .serializers import UserSerializer
 from rest_framework.response import Response
@@ -8,17 +6,6 @@ from .models import User
 import jwt, datetime
 from django.core.exceptions import ValidationError
 #returns jwt payload
-def getPayload(request):
-    token = request.COOKIES.get('jwt')
-
-    if not token :
-        raise AuthenticationFailed("Unauthenticated")
-    
-    try :
-        payload = jwt.decode(token, 'secret', algorithms=['HS256'])
-    except jwt.ExpiredSignatureError:
-        raise AuthenticationFailed("Unauthenticated")
-    return payload
 
 class RegisterAPI(APIView):
     def post(self, request):
@@ -32,7 +19,6 @@ class LoginAPI(APIView):
     def post(self, request):
         email = request.data['email']
         password = request.data['password']
-        print(request.method)
         user = User.objects.filter(email=email).first()
         if user is None :
             raise AuthenticationFailed("User not Found")
@@ -40,12 +26,8 @@ class LoginAPI(APIView):
         if not user.check_password(password):
             raise AuthenticationFailed("Incorrect password!")
         
-        payload = {
-            'id': user.id,
-            'email' : user.email,
-            'exp': datetime.datetime.utcnow() + datetime.timedelta(minutes=60),
-            'iat': datetime.datetime.utcnow()
-        }
+        payload = user.setPayload()
+        print(payload)
         token = jwt.encode(payload, 'secret', algorithm='HS256')
 
         response = Response()
@@ -67,24 +49,19 @@ class LogoutAPI(APIView):
     
 class IntroductionAPI(APIView):
     def get(self, request): #decide get
-        payload = getPayload(request)
-
+        payload = User.getPayload(self, request)
         user = User.objects.get(email=payload['email'])
-
         serializer = UserSerializer(user)
-
         return Response(serializer.data.get("introduction"))
     
     def patch(self, request):
-        payload = getPayload(request)
-
+        payload = User.getPayload(self, request)
         user = User.objects.get(email=payload['email'])
-
         serializer = UserSerializer(user, data=request.data, partial=True)
-
         try:
             serializer.is_valid(raise_exception=True)
             serializer.save()
             return Response(status=200)
         except ValidationError as e:
             return Response({'error': e.detail}, status=400)
+        
