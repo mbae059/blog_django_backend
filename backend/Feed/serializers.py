@@ -3,7 +3,7 @@ from .models import Feed, Comment, Like
 class FeedSerializer(serializers.ModelSerializer):
     class Meta:
         model = Feed
-        fields = ['id', 'name', 'email', 'password', 'introduction']
+        fields = "__all__"
 
 
 

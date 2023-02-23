@@ -6,7 +6,7 @@ class Feed(models.Model) :
     #The same way as tistory
     title = models.TextField(default="Title")
     #Writer of the feed
-    nickname = models.CharField(max_length=255)
+    nickname = models.CharField(max_length=255, default="default")
 
     email = models.EmailField()
     #upload
