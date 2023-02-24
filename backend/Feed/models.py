@@ -17,15 +17,19 @@ class Feed(models.Model) :
         db_table = 'Feed'
 
 class Like(models.Model) :
-    feed_id = models.IntegerField(default=0)
+    feed = models.ForeignKey(Feed, on_delete=models.CASCADE)
+    
+    #the person who liked the feed
     email = models.EmailField(default='a@google.com')
+
+    #for toggle
     is_like = models.BooleanField(default=False)
 
     class Meta:
         db_table = "Like"
 
 class Comment(models.Model) :
-    feed_id = models.IntegerField(default = 0)
+    feed = models.ForeignKey(Feed, on_delete=models.CASCADE)
     email = models.EmailField(default='a@google.com')
     content = models.TextField(default='')
 

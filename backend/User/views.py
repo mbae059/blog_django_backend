@@ -52,7 +52,8 @@ class IntroductionAPI(APIView):
         payload = User.getPayload(self, request)
         user = User.objects.get(email=payload['email'])
         serializer = UserSerializer(user)
-        return Response(serializer.data.get("introduction"))
+        print(serializer.data)
+        return Response({"introduction" : serializer.data.get("introduction")})
     
     def patch(self, request):
         #receive only introduction
