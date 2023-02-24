@@ -1,5 +1,5 @@
 from rest_framework.views import APIView
-from .serializers import FeedSerializer
+from .serializers import FeedSerializer, LikeSerializer
 from .models import Feed, Like, Comment
 from rest_framework.response import Response
 
@@ -22,4 +22,11 @@ class FeedAPI(APIView):
         serializer.save()
 
         return Response(serializer.data)
-        
+
+
+class LikeAPI(APIView):
+    def get(self, request, feed_id):
+        print(11111111111)
+        likeQueryset = Like.objects.filter(feed_id=feed_id)
+        print(1)
+        return likeQueryset.size()

@@ -55,6 +55,8 @@ class IntroductionAPI(APIView):
         return Response(serializer.data.get("introduction"))
     
     def patch(self, request):
+        #receive only introduction
+        #authentication is managed via jwt
         payload = User.getPayload(self, request)
         user = User.objects.get(email=payload['email'])
         serializer = UserSerializer(user, data=request.data, partial=True)
